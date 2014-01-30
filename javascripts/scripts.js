@@ -3,7 +3,7 @@ $(document).ready(function(){
 	  //slider
 	  var rsi = $('#slider-in-laptop').royalSlider({
 	    autoHeight: true,
-	    arrowsNav: false,
+	    arrowsNav: true,
 	    fadeinLoadedSlide: true,
 	    controlNavigationSpacing: 0,
 	    controlNavigation: 'bullets',

@@ -862,9 +862,15 @@ footer{
 
  .rsGCaption {
   margin-top:5%;
+  min-height:150px;
   h3{
     color:$secondary-color;
     font-family:$medium-font-name;
+    font-size:1.5em;
+  }
+  h2{
+    font-size:1.3em;
+    line-height:$baseline*1.5;
   }
 }
 
@@ -885,6 +891,25 @@ footer{
 }
 .rsNavSelected{
   background:$primary-color;
+}
+
+.rsArrow{
+  z-index: 9999;
+  position:relative;
+  top:-65%;
+  width:97px;
+  height:97px;
+}
+.rsArrowLeft{
+  right:6%;
+  float: left;
+  background-image:url(../images/arrow_left.png);
+
+}
+.rsArrowRight{
+  left:6%;
+  float: right;
+  background-image:url(../images/arrow_right.png);
 }
 
 .imgBg {
@@ -922,7 +947,8 @@ footer{
       h1{
         font-family:$light-font-name;
         color:$primary-color!important;
-        font-size:3em;
+        font-size:2.5em;
+        line-height:$baseline;
       }
       h2{
         font-size:1.5em;
@@ -1063,9 +1089,13 @@ footer{
     margin-top:10%;
   }
 
+  .rsGCaption{
+    min-height:260px;
+  }
+
   .icons{
     img{
-      width: 100%;
+
     }
   }
 
